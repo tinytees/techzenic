@@ -3,6 +3,12 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #F0F8FF;
 }
+body .container{
+    max-width: 1240px;
+}
+p{
+    margin-bottom: unset !important;
+}
 
 .logo {
     height: 50px;
@@ -65,19 +71,23 @@ main {
     /* Optional: to keep the background fixed while scrolling */
 }
 
-.main-banner-content .container-fluid .container-left .text{
+.main-banner-content .container .container-left .text{
     font-size: 60px;
 color: white;
 text-align: left;
 font-weight: 700;
-padding: 50px;
+padding-block: 50px;
 }
 
-.main-banner-content .container-fluid .container-right p{
+.container-right-text {
     font-size: 20px;
     color:#FAFAFA99;
 text-align: left;
-padding: 50px;
+padding-top: 70px;
+}
+.container-right-btn {
+    display: flex;
+    padding-block: 20px;
 }
 
 
