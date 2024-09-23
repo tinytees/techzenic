@@ -57,8 +57,6 @@ p{
 }
 
 main {
-
-    height: calc(100vh - 60px);
     text-align: center;
     background-color: #141415;
     background-image: url("./images/techzenicBgImg.jpg");
@@ -90,6 +88,64 @@ padding-top: 70px;
     padding-block: 20px;
 }
 
+.our-services-main{
+    padding-block: 50px;  
+} 
+.our-services-main-header{
+    p{
+        color: #0561fd;
+    }
+    h1{
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        font-weight: 600;
+    }
+    h6{
+        color: #FAFAFA99;
+        padding-block: 20px;
+        padding: 20px 350px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+.our-services-main-content{
+    padding-block: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.our-services-main-content .service-item{
+    background:#1d1f20;
+    padding: 30px;
+    border-radius: 15px;
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+.service-item-button{
+    padding-block: 20px;
+}
+.service-item-button .connect-button{
+    padding: 15px 20px;
+    background-color: #141415;
+}
+.our-services-main-content .service-item h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.our-services-main-content .service-item p {
+    font-size: 1rem;
+    color: #FAFAFA99;
+}
+
+.our-services-main-content .service-item img {
+    width: 40px;
+}
 
 p {
     display: inline-block;
@@ -129,7 +185,6 @@ main h1 {
     line-height: 1.2;
     font-weight: 800;
     color: #333;
-    max-width: 800px;
     margin: 0;
 }
 
