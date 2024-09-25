@@ -58,7 +58,7 @@ p {
     color: #146ef5;
 }
 
-main {
+.main-wrapper {
     text-align: center;
     background-color: #141415;
     background-image: url("./images/techzenicBgImg.jpg");
@@ -67,7 +67,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     /* Change to 'cover' to ensure the background fills the div */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     /* Optional: to keep the background fixed while scrolling */
 }
 
@@ -216,8 +216,13 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     /* Change to 'cover' to ensure the background fills the div */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     /* Optional: to keep the background fixed while scrolling */   
+}
+.video-player-content{
+    padding-top: 230px;
+    padding-bottom: 230px;
+    margin: unset;
 }
 
 
