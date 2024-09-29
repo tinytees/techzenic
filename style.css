@@ -460,6 +460,7 @@ p {
 .accordion-button{
     --bs-accordion-active-color:#ffffff !important; 
     --bs-accordion-btn-color:#ffffff !important;
+    font-weight: 600;
 }
 .accordion-item{
     color: white !important;
@@ -469,6 +470,9 @@ p {
 .accordion-button:focus {
     outline: none;
     box-shadow: none;
+}
+.accordion-body{
+    color:#FAFAFA99
 }
 
 
