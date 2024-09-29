@@ -1,11 +1,21 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #F0F8FF;
+    background: #141415;
+
 }
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+
 
 body .container {
     max-width: 1240px;
+}
+
+row{
+    margin: unset;
 }
 
 p {
@@ -294,6 +304,7 @@ p {
 .got-project-tab{
     background: #141415;
     padding: 50px;
+    background-image: url("./images/gotProjectBgImg.jpg");
 }
 
 .got-project-tab .left-div{
@@ -318,6 +329,149 @@ p {
     text-align: center;
     color: white;
 }
+.got-project-tab .right-div .values p{
+    text-align: center;
+    color: #FAFAFA99;
+}
+
+/* __________ Bottom Content __________ */
+
+.bottom-content{
+    background: #141415;
+}
+
+/* __________ Indutries __________ */
+.industries {
+    padding-block: 50px;
+    margin-block: 50px;
+}
+
+.industries-header {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.industries-header p {
+    color: #0561fd;
+}
+
+.industries-header h1 {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.industries-header h6 {
+    color: #FAFAFA99;
+    padding-block: 20px;
+    padding: 20px 350px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.industries-card {
+    height: 300px;
+}
+.industries-card h3{
+    color: white;
+    font-size: 30px;
+    padding: 50px 50px 10px 50px;
+}
+.industries-card p{
+    color: white;
+    font-size: 15px;
+    padding: 10px 50px 10px 50px;
+}
+.industries-card .connect-button{
+    margin: 10px 50px 10px 50px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+.industries-card .connect-button:hover{
+    margin: 10px 50px 10px 50px;
+    background-color: #ffffff;
+    color: #141415;
+}
+
+.healthcare{
+    background-image: url("./images/healthcare.jpg") , linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.finance{
+    background-image: url("./images/finance.jpg") , linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.techStartups{
+    background-image: url("./images/startups.jpg") , linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.ecommerce{
+    background-image: url("./images/ecommerce.jpg") , linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.content-gap{
+    border-top: 1px solid #fafafa14;
+}
+
+/* __________ FAQ __________ */
+
+.faq{
+    padding-block: 50px;
+}
+.faq-left{
+    padding: 60px !important;
+}
+.faq-left p{
+    color: #0561fd;
+}
+.faq-left h1{
+    color: white;
+}
+.faq-left h6{
+    color: #FAFAFA99;
+    padding-block: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.accordion{
+    --bs-accordion-bg: #1d1f20 !important;
+    --bs-accordion-border-color:unset !important;
+    --bs-accordion-active-bg : #1d1f20 !important;
+    --bs-accordion-icon-color :#ffffff !important;
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+.accordion-button{
+    --bs-accordion-active-color:#ffffff !important; 
+    --bs-accordion-btn-color:#ffffff !important;
+}
+.accordion-item{
+    color: white !important;
+    border : unset !important
+
+}
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
 
 
 /* __________ Logo Slider __________ */
