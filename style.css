@@ -343,7 +343,7 @@ p {
 /* __________ Indutries __________ */
 .industries {
     padding-block: 50px;
-    margin-block: 50px;
+    /* margin-block: 50px; */
 }
 
 .industries-header {
@@ -479,7 +479,7 @@ p {
 .contact-form{
     background-color: #0561fd;
     border-radius: 6px;
-    padding: 50px !important;
+    padding: 50px ;
 }
 .contact-form .header{
     text-align: center;
@@ -529,6 +529,9 @@ footer {
     margin-bottom: 20px;
     position: relative;
     margin-left: 50px;
+}
+.footer-section p{
+    text-align: justify;
 }
 
 .footer-section h3::after {
@@ -1034,6 +1037,9 @@ main h1 {
         margin: 0;
         text-align: center;
     }
+    .main-wrapper{
+        background-position: initial;
+    }
     .main-banner-content .container .container-left .text {
         font-size: 60px;
         padding-block: 20px;
@@ -1064,8 +1070,17 @@ main h1 {
         height: 50px;
     }
 
+    .partners-logo-slider {
+        .slide {
+            height: 80px;
+            width: 160px;
+            filter: grayscale(100%);
+        }
+    }
+
     .our-services-main-header h6 {
         padding:30px;
+        text-align: justify;
     }
     .our-services-main-content {
         display: inline-block;
@@ -1075,6 +1090,7 @@ main h1 {
     }
     .our-products-header h6 {
         padding: 20px;
+        text-align: justify;
     }
     .our-products-main .product-item {
         width: 100%;
@@ -1084,12 +1100,14 @@ main h1 {
     }
     .our-solutions-header h6 {
         padding: 20px;
+        text-align: justify;
     }
     .our-solutions-main .solution-item{
         width: 100%;
     }
     .industries-header h6{
         padding: 20px;
+        text-align: justify;
     }
     .industries .row{
         padding-right: unset !important;
@@ -1099,6 +1117,7 @@ main h1 {
     }
     .industries-card{
         height: fit-content;
+        padding-bottom: 30px;
     }
     .faq-left{
         padding: 10px;
@@ -1106,6 +1125,9 @@ main h1 {
     .faq-left h1{
         padding:unset;
         margin: unset;
+    }
+    .contact-form{
+        padding: 20px;
     }
     .contact-form .header p{
         padding: 10px;
