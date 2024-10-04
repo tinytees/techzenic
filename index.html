@@ -1,29 +1,555 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techzenic</title>
-    <link rel="stylesheet" href="./css/comingSoon.css">
-    <script src="https://kit.fontawesome.com/58b8e1a00a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/58b8e1a00a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/Techzenic.png" alt="Logo" class="d-inline-block align-text-top logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#">About</a>
+                        <a class="nav-link" href="#">Solutions</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="nav-connect-btn" role="search">
+                    <button class="connect-button" onclick="openWhatsApp()">Connect now</button>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <div class="wrapper">
-            <img src="./images/Techzenic.png"/>
-            <h1>coming soon<span class="dot">.</span></h1>
-            <p>Meanwhile you can know more about us on</p>
-            <div class="icons">
-              <a href="https://www.linkedin.com/company/techzenic/"><i class="fa fa-brands fa-linkedin"></i></a>
+        <div class="main-wrapper">
+            <div class="main-banner-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-12 col-sm-12 container-left">
+                            <div class="text">
+                                <p>Full-suite software development
+                                    for</p>
+                                <p>
+                                    <span class="word wisteria">businesses.</span>
+                                    <span class="word belize">individuals.</span>
+                                    <span class="word pomegranate">startups.</span>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-12 col-sm-12 container-right">
+                            <p class="container-right-text">Dive into the next-generation future of business technology.
+                                We
+                                craft tailored software
+                                solutions and strategic frameworks, driving businesses to unprecedented heights of
+                                success.
+                            </p>
+                            <div class="container-right-btn">
+                                <button class="connect-button" onclick="openWhatsApp()">Get started today</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 banner-img">
+                            <img src="./images/sierra-saas-hero.jpg" />
+                        </div>
+                    </div>
+                </div>
             </div>
-           </div>
+            <div class="container our-services-main">
+                <div class="our-services-main-header">
+                    <p>What we do</p>
+                    <h1>Supercharge your business</h1>
+                    <h6>Explore tailored products, innovative solutions, and valuable resources designed to accelerate
+                        your
+                        business growth.</h6>
+                </div>
+                <div class="row">
+                <div class="our-services-main-content">
+                    <div class="service-item col-lg-4 col-md-12 col-sm-12">
+                        <!-- <img src="./images/hospital-logo-design-vector-medical-cross.png" alt="Healthcare Icon"> -->
+                        <h3>Products</h3>
+                        <p>Dive into the future of next-generation technology with our business custom tailored
+                            software.
+                        </p>
+                        <div class="d-flex service-item-button" role="search">
+                            <button class="connect-button">Know more</button>
+                        </div>
+                    </div>
+                    <div class="service-item col-lg-4 col-md-12 col-sm-12">
+                        <!-- <img src="./images/ecommerce-checkout-laptop-concept-illustration.png" alt="Marketplace Icon"> -->
+                        <h3>Solutions</h3>
+                        <p>Explore a spectrum of solutions meticulously designed to empower your business growth.</p>
+                        <div class="d-flex service-item-button" role="search">
+                            <button class="connect-button">Know more</button>
+                        </div>
+                    </div>
+                    <div class="service-item col-lg-4 col-md-12 col-sm-12">
+                        <!-- <img src="./images/https://www.unthinkable.co/wp-content/uploads/2023/10/shopping-bag-1.svg"
+                            alt="Ecommerce Icon"> -->
+                        <h3>Consulting</h3>
+                        <p>Harness actionable insights and unmatched efficiency to fuel your business growth.</p>
+                        <div class="d-flex service-item-button" role="search">
+                            <button class="connect-button">Know more</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="logo-slider">
+            <div class="partners-logo-slider">
+                <div class="slide-track">
+                    <div class="slide">
+                        <img src="./coding logo/angular.svg" height="70" width="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./coding logo/React-Symbol.png" height="70" width="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./coding logo/JavaScript-Symbol.png" height="70" width="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./coding logo/HTML5_logo_and_wordmark.svg.png" height="70" width="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./coding logo/CSS-Logo.png" height="70" width="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./coding logo/Node.js_logo_2015.svg.png" height="70" width="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./coding logo/Python-Symbol.png" height="70" width="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./coding logo/free-dotnet-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-10-pack-icons-283005.webp"
+                            height="70" width="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./coding logo/Microsoft_Azure_Logo.svg.png" height="70" width="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./coding logo/Google-Cloud-Logo.png" height="70" width="100" alt="" />
+                    </div>
+
+                    <div class="slide">
+                        <img src="./coding logo/MongoDB-logo.png" height="70" width="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./coding logo/postgresql_plain_wordmark_logo_icon_146390.webp" height="70" width="100"
+                            alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./coding logo/WordPress-logotype-alternative.png" height="70" width="100" alt="" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid video-player">
+            <div class="video-player-content">
+                <h2 class="video-player-content-text">Empower your creativity and craft stunning sites while enjoying
+                    real-time
+                    customer support at every step.</h2>
+                <a id="play-video" class="video-play-button" href="#" data-toggle="modal"
+                    data-target="#savoybeachhotel">
+                    <span></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="container our-products">
+            <div class="our-products-header">
+                <p>Solutions we deliver</p>
+                <h1>Full-cycle software development</h1>
+                <h6>From concept to launch, full-cycle software development covers every phase of the development
+                    process, ensuring that your project is built efficiently and effectively.</h6>
+            </div>
+            <div class="our-products-main row ">
+                <div class="product-item col-lg-4 col-md-6 col-sm-12">
+                    <h3 class="product-item-title">Custom web <span>application</span></h3>
+                    <p class="product-item-subtitle">
+                        Build responsive, scalable, and high-performing web applications tailored to your business
+                        needs. From idea to deployment, we ensure seamless user experiences across all platforms.
+                    </p>
+                </div>
+
+                <div class="product-item col-lg-4 col-md-6 col-sm-12">
+                    <h3 class="product-item-title">E-commerce <span>applications</span></h3>
+                    <p class="product-item-subtitle">
+                        Our e-commerce applications provide secure and seamless shopping experiences. Featuring robust
+                        cart systems, payment gateways, and inventory management, we ensure a smooth customer journey.
+                    </p>
+                </div>
+
+                <div class="product-item col-lg-4 col-md-6 col-sm-12">
+                    <h3 class="product-item-title">Progressive web <span>applications</span></h3>
+                    <p class="product-item-subtitle">
+                        Progressive Web Applications (PWAs) combine the best of web and mobile experiences, offering
+                        offline capabilities, fast loading, and improved user engagement on all devices.
+                    </p>
+                </div>
+
+                <div class="product-item col-lg-4 col-md-6 col-sm-12">
+                    <h3 class="product-item-title">Mobile <span>applications</span></h3>
+                    <p class="product-item-subtitle">
+                        From native to hybrid mobile apps, we create intuitive, user-centric mobile solutions designed
+                        to enhance customer engagement and drive business growth across all platforms.
+                    </p>
+                </div>
+
+                <div class="product-item col-lg-4 col-md-6 col-sm-12">
+                    <h3 class="product-item-title">CRM <span>software</span></h3>
+                    <p class="product-item-subtitle">
+                        Optimize customer relationships with our CRM software, designed to streamline your sales
+                        process, manage leads, and improve customer engagement through powerful data-driven insights.
+                    </p>
+                </div>
+
+                <div class="product-item col-lg-4 col-md-6 col-sm-12">
+                    <h3 class="product-item-title">Project management <span>tool</span></h3>
+                    <p class="product-item-subtitle">
+                        Stay organized and on schedule with our Project Management tool. Collaborate effectively, assign
+                        tasks, and track progress in real-time to ensure timely project completion.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container-fluid got-project-tab">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 left-div">
+                        <h1>Got a project in mind ?</h1>
+                        <p>Let's embark on a journey to transform your idea into a compelling digital presence.</p>
+                        <button class="connect-button" onclick="openWhatsApp()">Connect now</button>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 right-div">
+                        <div class="values">
+                            <h2>100+</h2>
+                            <p>Projects delivered</p>
+                        </div>
+                        <div class="values">
+                            <h2>5+</h2>
+                            <p>Years of experience</p>
+                        </div>
+                        <div class="values">
+                            <h2>1000+</h2>
+                            <p>Satisfied Customers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="our-solutions">
+            <div class="our-solutions-header">
+                <h4>Powerful Solutions for Your Digital Success</h4>
+                <h6>At Techzenic, we offer cutting-edge software solutions tailored to meet the unique needs of your
+                    business. Our goal is to empower businesses of all sizes with innovative technologies that
+                    streamline operations, deliver exceptional results, and drive growth.</h6>
+            </div>
+            <div class="container our-solutions-main">
+                <div class="solution-item col-lg-4 col-md-6 col-sm-12">
+                    <h3 class="solution-item-title">Startups <span>01</span></h3>
+                    <p class="solution-item-subtitle">
+                        We help startups navigate their initial challenges such as rapid scaling, budget constraints,
+                        and market validation.
+                    </p>
+                    <ul class="solution-item-list">
+                        <li>MVP and SaaS Development for quick market entry at minimal spending.</li>
+                        <li>CTO as a Service to align technology with business goals for success.</li>
+                        <li>Data Analytics & DevOps to get insights from data to drive decision-making.</li>
+                        <li>Technology Consulting to help startups avoid costly tech mistakes for long-term success.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="solution-item col-lg-4 col-md-6 col-sm-12">
+                    <h3 class="solution-item-title">Enterprises <span>02</span></h3>
+                    <p class="solution-item-subtitle">
+                        We help enterprises overcome challenges related to scalability, security, maintenance, and
+                        cost-effectiveness.
+                    </p>
+                    <ul class="solution-item-list">
+                        <li>Application Modernization to upgrade and revitalize outdated systems.</li>
+                        <li>Custom Software Development to build scalable and secure solutions.</li>
+                        <li>QA & Testing to ensure the software delivers top-notch performance.</li>
+                        <li>Cloud Application Development for enhanced scalability, security, and cost-effectiveness.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="solution-item col-lg-4 col-md-6 col-sm-12">
+                    <h3 class="solution-item-title">Agencies<span>03</span></h3>
+                    <p class="solution-item-subtitle">
+                        We help agencies navigate complex technology landscapes to deliver top-notch software solutions
+                    </p>
+                    <ul class="solution-item-list">
+                        <li>Software Consulting & Development to provide access to top tech talent.</li>
+                        <li>QA & Testing to ensure the software delivered is of the highest quality.</li>
+                        <li>Staff Augmentation to face fluctuating project demands & scale teams.</li>
+                        <li>White Label services to let agencies enhance their portfolio without overhead of in-house
+                            development.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-content">
+            <div class="industries">
+                <div class="industries-header">
+                    <p>Industries</p>
+                    <h1>Industries we offer</h1>
+                    <h6>From startups to big enterprises, development organizations to digital agencies, and SMEs to
+                        Governments, we cater to varied software requirements, delivering tailor-made solutions that
+                        drive innovation, efficiency, and growth</h6>
+                </div>
+                <div class="row">
+                    <div class="industries-card col-lg-6 col-md-12 col-sm-12 healthcare">
+                        <h3>Healthcare</h3>
+                        <p>Transit to digital healthcare and achieve better outcomes with our digitally smart healthcare
+                            software development services. We utilize the web, mobile, and medical devices to enable the
+                            next-gen quality of healthcare software solutions.</p>
+                        <button class="connect-button">Know more</button>
+                    </div>
+                    <div class="industries-card col-lg-6 col-md-12 col-sm-12 techStartups">
+                        <h3>Tech Startups</h3>
+                        <p>Fuel your innovation and scale faster with our specialized tech solutions for startups. We
+                            leverage cutting-edge technologies to develop web and mobile applications that accelerate
+                            your growth, ensuring you stay competitive in today’s dynamic market.</p>
+                        <button class="connect-button">Know more</button>
+                    </div>
+                    <div class="industries-card col-lg-6 col-md-12 col-sm-12 finance">
+                        <h3>Finance</h3>
+                        <p>Empower your banking and finance operations with cutting-edge software solutions tailored to
+                            drive efficiency, reduce costs, and ensure compliance. At Techzenic, we develop secure,
+                            scalable, custom software solutions to meet your business needs.</p>
+                        <button class="connect-button">Know more</button>
+                    </div>
+                    <div class="industries-card col-lg-6 col-md-12 col-sm-12 ecommerce">
+                        <h3>E-commerce</h3>
+                        <p>Transform your online business with our robust e-commerce solutions. From intuitive website
+                            design to seamless payment integration, we help you create a dynamic shopping experience
+                            that drives sales and boosts customer satisfaction.</p>
+                        <button class="connect-button">Know more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container content-gap">
+            </div>
+            <div class="container faq">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 cold-md-12 faq-left">
+                        <p>Help Center</p>
+                        <h1>
+                            Got any question ? Get you answer
+                        </h1>
+                        <h6>Quick answers to questions you may have. Can't find what you're looking for ? Let's have a
+                            chat.</h6>
+                    </div>
+                    <div class="col-lg-6 col-md-12 cold-md-12 faq-right">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        1. Why choose Techzenic ?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        We are a highly experienced and qualified team of professionals with a proven
+                                        track record of delivering quality software solutions to clients. Here are a few
+                                        reasons to choose us:
+                                        <ul>
+                                            <li>
+                                                105+ software developers
+                                            </li>
+                                            <li>
+                                                Expertise in different technologies
+
+                                            </li>
+                                            <li>
+                                                Strong reputation for quality work
+
+                                            </li>
+                                            <li>
+                                                Experience working on complex projects for different industry verticals
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        2. Can I test the your services before any committment ?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        You can test the services of ValueCoders before committing to long-term engagement. We offer free trial to clients worldwide. This is to give our potential customers a risk-free way to try our software development services before committing to long-term engagement. We strongly believe in our products and services and want to allow everyone to experience firsthand the value we can bring.
+
+                                        Just fill out a form and connect with our team immediately. We hope you’ll take advantage of this and give us a chance to show you what we can do.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                       3. How much does software development costs ?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        The cost of software development depends on several factors such as the size and build of the application, the features & third-party integrations, APIs, animations, localizations, backend, cross-platform toolsets, platforms, etc. If you share your basic idea, we can provide you with an ETA and estimated cost.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                       3. Do you offer white-label software development services?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Yes, we provide all types of white-label software development services, including business-to-business (B2B), business-to-customer (B2C), and software-as-a-service (SaaS). Get in touch with our experts to know more about white-label software services.
+                                        We believe in complete transparency and collaboration with our clients regarding white-label software development. We understand that every business has unique requirements and needs, and we work closely with our clients to ensure that we meet all their specific needs. We also offer 24/7 support and maintenance services to ensure that our client’s businesses always run smoothly.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        4. Do you work with startups and clients on a budget?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Yes, we work with startups. Since our establishment, we have worked with thousands of startups across the globe and become the proud partner in their success journey. We have built hundreds of Minimum Viable Products (MVPs) and scaled several startups to new heights. Also, we provide you with initial technology consulting that helps you cut costs & time.
+                                        Let us know your budget, and our experts will be happy to help you.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container contact-form">
+                <div class="header">
+                    <h1>Ready to transform your business ?
+                    </h1>
+                    <p>Leave your message with this contact form to start a new project journey with us. Let’s shape the future of your business together.</p>
+                </div>
+                <div class="contact-form-content">
+                    <form class="">
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Company name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Business Domain">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                          </div>
+                        <button type="button" class="btn btn-dark w-100 btn-lg">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/Techzenic.png" alt="Logo" class="d-inline-block align-text-top logo">
+                </a>
+                <p>
+                    Techzenic is a forward-thinking IT company committed to delivering cutting-edge software solutions. With a focus on innovation and reliability, we strive to create technology that serves generations, empowering businesses to stay ahead in a fast-evolving digital landscape.
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 style="margin-left: unset;">Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/techzenic/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="newsletter">
+                    <h5>Subscribe to our newsletter</h5>
+                    <form>
+                        <input type="email" placeholder="Your Email" aria-label="Email for newsletter">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Techzenic. All rights reserved.</p>
+            <a href="#" class="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></a>
+        </div>
+    </footer>
+
+
 </body>
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
 </html>
